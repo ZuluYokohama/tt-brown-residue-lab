@@ -1,0 +1,25 @@
+name: sim-smoke
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: DAQ simulate
+        run: python3 tt_brown_lab_run.py --backend sim --dwell 0.1 --out tt_brown_runs
+      - name: Analyze
+        run: |
+          CSV=$(ls -1 tt_brown_runs/run_*.csv | tail -1)
+          python3 tt_brown_analyze.py --csv "$CSV" --out tt_brown_analysis --floor-N 1e-8
+      - name: Show verdict
+        run: |
+          python3 -c "import json; r=json.load(open('tt_brown_analysis/analysis_report.json')); print(r['verdict'])"
