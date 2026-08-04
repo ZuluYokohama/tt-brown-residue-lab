@@ -1,0 +1,22 @@
+# CodeRabbit — tt-brown-residue-lab
+language: en-US
+reviews:
+  profile: assertive
+  request_changes_workflow: true
+  high_level_summary: true
+  poem: false
+  review_status: true
+  path_instructions:
+    - path: "tt_brown_*.py"
+      instructions: |
+        Preserve design law: residue never forced; OPEN claims stay EHD-class.
+        Flag silent exception swallows, missing interlocks, and analysis paths
+        that could promote RESIDUE to OPEN without controls.
+    - path: "docs/**"
+      instructions: |
+        Claims must distinguish OPEN / OPEN_NULL / RESIDUE. No ontology overclaim.
+    - path: "tests/**"
+      instructions: |
+        Smoke must cover sim entrypoint and analyze import path offline.
+chat:
+  auto_reply: true
