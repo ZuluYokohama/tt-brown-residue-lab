@@ -1,17 +1,86 @@
-MIT License
+PROPRIETARY SOURCE-AVAILABLE LICENSE
+====================================
 
-Copyright (c) 2026 ZuluYokohama
+Copyright (c) 2026 Blake A. Jones (JtechAI / ZuluYokohama). All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+NOTICE
+------
+This repository is published for technical scrutiny, scientific discussion,
+and evaluation only. It is NOT open source.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. DEFINITIONS
+--------------
+"Software" means the source code, documentation, experiment designs, analysis
+pipelines, certificates, configuration, and any derivatives or substantial
+portions thereof in this repository (including without limitation the DAQ
+state machine, instrument backends, analysis verdicts, and claims ledger).
 
+"Evaluation Use" means non-production, non-commercial inspection, reading,
+local execution for verification of published claims, academic citation, and
+peer review.
+
+"Commercial Use" means any use in a product, service, paid offering,
+internal production system, consulting deliverable, or any activity intended
+for commercial advantage or monetary compensation.
+
+2. GRANT (EVALUATION ONLY)
+--------------------------
+Subject to this License, Copyright Holder grants you a limited,
+non-exclusive, non-transferable, revocable license to:
+  (a) view and download the Software;
+  (b) run the Software locally solely for Evaluation Use;
+  (c) quote limited excerpts in academic or technical commentary with
+      attribution to this repository and Copyright Holder.
+
+3. RESTRICTIONS
+---------------
+You may NOT, without a separate written commercial license from Copyright
+Holder:
+  (a) use the Software for Commercial Use;
+  (b) redistribute, sublicense, sell, lease, or publish the Software or
+      substantial portions thereof (including forks offered as competing
+      products or services);
+  (c) remove or alter copyright, license, or proprietary notices;
+  (d) use the Software to train or distill models or products offered to
+      third parties for a fee, where the Software's methodology is material.
+
+4. COMMERCIAL LICENSING
+-----------------------
+Commercial Use requires a written license from Copyright Holder.
+Contact: b.jones@jtech.ai
+Repository: https://github.com/ZuluYokohama/tt-brown-residue-lab
+
+5. PATENT RESERVATION
+---------------------
+No patent license is granted except as essential to Evaluation Use under
+this License. All other patent rights are reserved.
+
+6. TRADEMARKS
+-------------
+"JtechAI", "ZuluYokohama", and related marks (if any) are reserved.
+This License does not grant trademark rights.
+
+7. DISCLAIMER OF WARRANTY
+-------------------------
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. RESEARCH SOFTWARE. NOT A CLAIM
+OF PHYSICAL DISCOVERY.
+
+8. LIMITATION OF LIABILITY
+--------------------------
+IN NO EVENT SHALL COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM USE OF THE SOFTWARE, WHETHER IN CONTRACT, TORT, OR
+OTHERWISE.
+
+9. TERMINATION
+--------------
+This License terminates automatically upon any breach. Sections 5–8 survive
+termination.
+
+10. GOVERNING LAW
+-----------------
+This License is governed by the laws of the United States and the State of
+Oklahoma, excluding conflict-of-law rules.
+
+END OF TERMS
